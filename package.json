@@ -1,6 +1,6 @@
 {
   "name": "node-workspace-detector-action",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "private": true,
   "description": "GitHub Action to automatically detect the parent-most directory that contains a Node or NPM Project, and return the result in outputs.",
   "main": "lib/main.js",

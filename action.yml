@@ -1,5 +1,5 @@
 name: "Node / NPM Workspace Detector Action"
-description: "GitHub Action to automatically detect the parent-most directory that contains a Node or NPM Project, and return the result in outputs."
+description: "Automatically detect the parent-most directory that contains a Node or NPM Project, and return the result in outputs."
 author: "Derek Kershner"
 outputs:
   workspace:
