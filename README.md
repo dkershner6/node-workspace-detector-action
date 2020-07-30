@@ -2,6 +2,8 @@
 
 GitHub Action to automatically detect the parent-most directory that contains a Node or NPM Project, and return the result in outputs.
 
+Uses [find-package-json](https://www.npmjs.com/package/find-package-json)
+
 ## Usage
 
 ### Inputs
