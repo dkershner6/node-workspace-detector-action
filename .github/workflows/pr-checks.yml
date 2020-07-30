@@ -17,7 +17,8 @@ jobs:
     steps:
       - uses: actions/checkout@v1
       - uses: ./
-
+        with:
+          token: TESTTOKEN
   test-coverage:
     runs-on: ubuntu-latest
     steps:
