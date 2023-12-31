@@ -1,6 +1,10 @@
 {
   "dependencies": [
     {
+      "name": "@types/find-package-json",
+      "type": "build"
+    },
+    {
       "name": "@types/jest",
       "type": "build"
     },
@@ -29,11 +33,31 @@
       "type": "build"
     },
     {
+      "name": "dkershner6-projen-github-actions",
+      "type": "build"
+    },
+    {
+      "name": "eslint-config-prettier",
+      "type": "build"
+    },
+    {
       "name": "eslint-import-resolver-typescript",
       "type": "build"
     },
     {
       "name": "eslint-plugin-import",
+      "type": "build"
+    },
+    {
+      "name": "eslint-plugin-jest",
+      "type": "build"
+    },
+    {
+      "name": "eslint-plugin-prettier",
+      "type": "build"
+    },
+    {
+      "name": "eslint-plugin-sonarjs",
       "type": "build"
     },
     {
@@ -48,6 +72,10 @@
     {
       "name": "jest-junit",
       "version": "^15",
+      "type": "build"
+    },
+    {
+      "name": "prettier",
       "type": "build"
     },
     {
@@ -72,6 +100,10 @@
       "type": "build"
     },
     {
+      "name": "typedoc",
+      "type": "build"
+    },
+    {
       "name": "typescript",
       "type": "build"
     },
@@ -81,6 +113,10 @@
     },
     {
       "name": "@actions/github",
+      "type": "runtime"
+    },
+    {
+      "name": "find-package-json",
       "type": "runtime"
     }
   ],
