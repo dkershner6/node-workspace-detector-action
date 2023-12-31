@@ -1,5 +1,5 @@
-import { setFailed, info } from '@actions/core';
-import finder from 'find-package-json';
+import { setFailed, info } from "@actions/core";
+import finder from "find-package-json";
 
 const findPackageJson = (): string | undefined => {
     const originalPath = process.cwd();
@@ -8,15 +8,15 @@ const findPackageJson = (): string | undefined => {
     const resultFilePath = firstResult.filename;
 
     if (!resultFilePath) {
-        setFailed('No package.json found');
+        setFailed("No package.json found");
         return;
     }
 
     info(`Found at ${resultFilePath}`);
 
     return resultFilePath
-        .replace(originalPath, '.')
-        .replace('package.json', '');
+        .replace(originalPath, ".")
+        .replace("package.json", "");
 };
 
 export default findPackageJson;
