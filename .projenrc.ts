@@ -20,7 +20,7 @@ const project = new Node20GitHubActionTypescriptProject({
     actionMetadata: {
         name: "Node / NPM Workspace Detector Action",
         description:
-            "GitHub Action to automatically detect the parent-most directory that contains a Node or NPM Project, and return the result in outputs.",
+            "Detect the parent-most directory that contains a Node or NPM Project, and return the result in outputs.",
         outputs: {
             workspace: {
                 description: "The parent-most path where a package.json exists",
