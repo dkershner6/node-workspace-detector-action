@@ -1,4 +1,5 @@
 import { setFailed, setOutput } from "@actions/core";
+
 import findPackageJson from "./findPackageJson";
 
 async function run(): Promise<void> {
